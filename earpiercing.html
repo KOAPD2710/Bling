@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>EARPIERCING</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/earpiercing.css">
+	<script type="text/javascript" src="js/all.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/popper.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-sm navbar-light fixed-top">
+
+		<div class="container">
+
+			<a href="index.html" class="navbar-brand"><img src="hinh/Logo.JW.png"></a>
+			<!--toggler button-->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#top_nav">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="top_nav">
+
+			<div class="mr-auto">
+				<ul class="navbar-nav">			
+					<li class="nav-item dropdown">
+						<a href="#" class="nav-link" id="khuyen_xo_list"  data-toggle="dropdown">Khuyên xỏ</a>
+						<div class="dropdown-content">
+							<a href="earpiercing.html" class="dropdown-item">Khuyên tai</a>
+							<a href="#" class="dropdown-item">Khuyên mũi</a>
+							<a href="#" class="dropdown-item">Khuyên cơ thể</a>
+						</div>
+					</li>&nbsp;&nbsp;
+					<li class="nav-item">
+						<a href="ear.html" class="nav-link">Bông tai</a>
+					</li>&nbsp;&nbsp;
+					<li class="nav-item">
+						<a href="ring.html" class="nav-link">Nhẫn</a>
+					</li>&nbsp;&nbsp;
+					<li class="nav-item">
+						<a href="bracelet.html" class="nav-link">Lắc tay</a>
+					</li>&nbsp;&nbsp;
+					<li class="nav-item">
+						<a href="collection.html" class="nav-link">Bộ sưu tập</a>
+					</li>&nbsp;&nbsp;
+					<li class="nav-item">
+						<a href="#" class="nav-link">Dịch vụ</a>
+					</li>&nbsp;&nbsp;
+					<li class="nav-item">
+						<a href="FAQ.html" class="nav-link">Hỏi đáp</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="ml-auto">
+					<ul class="navbar-nav left_nav d-none d-lg-flex">
+						<li class="nav-item">
+								<a href="#" class="nav-link" data-toggle="modal" data-target="#search_modal"><i class="fas fa-search"></i></a>
+								<p class="left_text">Tìm kiếm</p>
+						</li>&nbsp;&nbsp;&nbsp;&nbsp;
+						<li class="nav-item">
+								<a href="#" class="nav-link"><i class="far fa-heart"></i></a>
+								<p class="left_text">Yêu thích</p>
+						</li>&nbsp;&nbsp;&nbsp;&nbsp;
+						<li class="nav-item">
+								<a href="login.html" class="nav-link"><i class="far fa-user"></i></a>
+								<p class="left_text">Đăng nhập</p>
+						</li>&nbsp;&nbsp;&nbsp;&nbsp;
+						<li class="nav-item">
+								<a href="payment.html" class="nav-link" data-toggle="modal" data-target="#bag_modal"><i class="far fa-shopping-bag"></i></a>
+								<p class="left_text">Giỏ hàng</p>
+						</li>
+					</ul>
+					<!--responsive mobile-->
+					<ul class="nav left_nav d-flex d-lg-none p-2">
+						<li class="nav-item">
+								<a href="#" class="nav-link" data-toggle="modal" data-target="#search_modal"><i class="fas fa-search"></i></a>
+								<p class="left_text">Tìm kiếm</p>
+						</li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<li class="nav-item">
+								<a href="#" class="nav-link"><i class="far fa-heart"></i></a>
+								<p class="left_text">Yêu thích</p>
+						</li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<li class="nav-item">
+								<a href="login.html" class="nav-link"><i class="far fa-user"></i></a>
+								<p class="left_text">Đăng nhập</p>
+						</li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<li class="nav-item">
+								<a href="payment.html" class="nav-link" data-toggle="modal" data-target="#bag_modal"><i class="far fa-shopping-bag"></i></a>
+								<p class="left_text">Giỏ hàng</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<!--end nav-->
+
+	<img src="hinh/earpiebanner.jpg" class="img-fluid">
+
+	<div class="container filter_btn_list">
+		<a name="top_page"></a>
+		<ul class="nav">
+			<li class="nav-item">
+				<a href="#top_page" class="nav-link" id="filter_btn"><i class="fad fa-sliders-h"></i>&nbsp;&nbsp;Bộ lọc</a>
+			</li>
+		</ul>
+	</div>
+
+	<div class="container" id="sp">
+		<div class="row">
+					<div class="col-xl-3 col-sm-6 col-6 items">
+						<div class="hover_item">
+							<div class="wrap"><img src="hinh/pie1.jpg" class="img-fluid"></a></div>
+							<p class="sp_icon"><a href="#"><i class="far fa-heart"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="far fa-shopping-bag"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="far fa-search-plus"></i></a></p>
+							<h6>Angel Wing Sterling</h6>
+							<h6 class="price">870.000 đ đ</h6>
+							<button>Mua ngay</button>
+						</div>
+					</div>
+					<div class="col-xl-3 col-sm-6 col-6 items">
+						<div class="hover_item">
+							<div class="wrap"><img src="hinh/pie2.jpg" class="img-fluid"></div>
+							<p class="sp_icon"><a href="#"><i class="far fa-heart"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="far fa-shopping-bag"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="far fa-search-plus"></i></a></p>
+							<h6>Cubic Zirconia</h6>
+							<h6 class="price">910.000 đ</h6>
+							<button>Mua ngay</button>
+						</div>
+					</div>
+					<div class="col-xl-3 col-sm-6 col-6 items">
+						<div class="hover_item">
+							<div class="wrap"><img src="hinh/pie3.jpg" class="img-fluid"></div>
+							<p class="sp_icon"><a href="#"><i class="far fa-heart"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="far fa-shopping-bag"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="far fa-search-plus"></i></a></p>
+							<h6>Sparkling Infinity</h6>
+							<h6 class="price">1.050.000 đ</h6>
+							<button>Mua ngay</button>
+						</div>
+					</div>
+					<div class="col-xl-3 col-sm-6 col-6 items">
+						<div class="hover_item">
+							<div class="wrap"><img src="hinh/pie4.jpg" class="img-fluid"></div>
+							<p class="sp_icon"><a href="#"><i class="far fa-heart"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="far fa-shopping-bag"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="far fa-search-plus"></i></a></p>
+							<h6>Daisy Flower Trio</h6>
+							<h6 class="price">980.000 đ</h6>
+							<button>Mua ngay</button>
+						</div>
+					</div>
+
+					<div class="col-xl-3 col-sm-6 col-6 items">
+						<div class="hover_item">
+							<div class="wrap"><img src="hinh/pie5.jpg" class="img-fluid"></div>
+							<p class="sp_icon"><a href="#"><i class="far fa-heart"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="far fa-shopping-bag"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="far fa-search-plus"></i></a></p>
+							<h6>Pink Daisy Flower</h6>
+							<h6 class="price">1.000.000 đ</h6>
+							<button>Mua ngay</button>
+						</div>
+					</div>
+					<div class="col-xl-3 col-sm-6 col-6 items">
+						<div class="hover_item">
+							<div class="wrap"><img src="hinh/pie6.jpg" class="img-fluid"></div>
+							<p class="sp_icon"><a href="#"><i class="far fa-heart"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="far fa-shopping-bag"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="far fa-search-plus"></i></a></p>
+							<h6>Crescent Blue Moon</h6>
+							<h6 class="price">760.000 đ</h6>
+							<button>Mua ngay</button>
+						</div>
+					</div>
+					<div class="col-xl-3 col-sm-6 col-6 items">
+						<div class="hover_item">
+							<div class="wrap"><img src="hinh/pie7.jpg" class="img-fluid"></div>
+							<p class="sp_icon"><a href="#"><i class="far fa-heart"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="far fa-shopping-bag"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="far fa-search-plus"></i></a></p>
+							<h6>Shooting Star</h6>
+							<h6 class="price">630.000 đ</h6>
+							<button>Mua ngay</button>
+						</div>
+					</div>
+					<div class="col-xl-3 col-sm-6 col-6 items">
+						<div class="hover_item">
+							<div class="wrap"><img src="hinh/pie8.jpg" class="img-fluid"></div>
+							<p class="sp_icon"><a href="#"><i class="far fa-heart"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="far fa-shopping-bag"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="far fa-search-plus"></i></a></p>
+							<h6>Rose Heart Crystal</h6>
+							<h6 class="price">1.120.000 đ</h6>
+							<button>Mua ngay</button>
+						</div>
+					</div>
+
+					<div class="col-xl-3 col-sm-6 col-6 items">
+						<div class="hover_item">
+							<div class="wrap"><img src="hinh/pie9.jpg" class="img-fluid"></div>
+							<p class="sp_icon"><a href="#"><i class="far fa-heart"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="far fa-shopping-bag"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="far fa-search-plus"></i></a></p>
+							<h6>Butterfly Crystal</h6>
+							<h6 class="price">620.000 đ</h6>
+							<button>Mua ngay</button>
+						</div>
+					</div>
+					<div class="col-xl-3 col-sm-6 col-6 items">
+						<div class="hover_item">
+							<div class="wrap"><img src="hinh/pie10.jpg" class="img-fluid"></div>
+							<p class="sp_icon"><a href="#"><i class="far fa-heart"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="far fa-shopping-bag"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="far fa-search-plus"></i></a></p>
+							<h6>Circle Stud</h6>
+							<h6 class="price">1.210.000 đ</h6>
+							<button>Mua ngay</button>
+						</div>
+					</div>
+					<div class="col-xl-3 col-sm-6 col-6 items">
+						<div class="hover_item">
+							<div class="wrap"><img src="hinh/pie11.jpg" class="img-fluid"></div>
+							<p class="sp_icon"><a href="#"><i class="far fa-heart"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="far fa-shopping-bag"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="far fa-search-plus"></i></a></p>
+							<h6>Moonlight Blue</h6>
+							<h6 class="price">1.150.000 đ</h6>
+							<button>Mua ngay</button>
+						</div>
+					</div>
+					<div class="col-xl-3 col-sm-6 col-6 items">
+						<div class="hover_item">
+							<div class="wrap"><img src="hinh/pie12.jpg" class="img-fluid"></div>
+							<p class="sp_icon"><a href="#"><i class="far fa-heart"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="far fa-shopping-bag"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="far fa-search-plus"></i></a></p>
+							<h6>Feather Turquoise Enamel</h6>
+							<h6 class="price">990.000 đ</h6>
+							<button>Mua ngay</button>
+						</div>
+					</div>
+		</div>
+	</div>
+
+
+	<div class="filter_content" id="filter_box">
+		<div class="white_bg">
+			<div class="container">
+				<h5>KHUYÊN TAI BLING</h5>
+				<div class="row">
+						<div class="col-xl-3 col-lg-3 col-sm-6 col-6">
+							<h6>CHẤT LIỆU</h6>
+								<p class="checkbox">
+									<input type="checkbox" name="">&nbsp;&nbsp;Bạc
+									<br>
+									<input type="checkbox" name="">&nbsp;&nbsp;Vàng
+									<br>
+									<input type="checkbox" name="">&nbsp;&nbsp;Vàng hồng
+									<br>
+								</p>
+						</div>
+
+						<div class="col-xl-3 col-lg-3 col-sm-6 col-6">
+							<h6>PHONG CÁCH</h6>
+								<p class="checkbox">
+									<input type="checkbox" name="">&nbsp;&nbsp;Đính đá
+									<br>
+									<input type="checkbox" name="">&nbsp;&nbsp;Đính ngọc
+									<br>
+									<input type="checkbox" name="">&nbsp;&nbsp;Đính charm
+									<br>
+									<input type="checkbox" name="">&nbsp;&nbsp;Họa tiết
+									<br>
+									<input type="checkbox" name="">&nbsp;&nbsp;Khuyên đơn
+									<br>
+								</p>		
+						</div>
+
+						<div class="col-xl-3 col-lg-3 col-sm-6 col-6">
+							<h6>MỨC GIÁ</h6>
+								<p class="checkbox">
+									<input type="checkbox" name="">&nbsp;&nbsp;600.000 - 800.000 đ
+									<br>
+									<input type="checkbox" name="">&nbsp;&nbsp;800.000 - 1.000.000 đ
+									<br>
+									<input type="checkbox" name="">&nbsp;&nbsp;1.000.000 - 1.200.000 đ
+									<br>
+									<input type="checkbox" name="">&nbsp;&nbsp;Trên 1.200.000 đ
+									<br>
+								</p>		
+						</div>
+
+						<div class="col-xl-3 col-lg-3 col-sm-6 col-6">
+							<h6>SẮP XẾP THEO</h6>
+								<p>
+									<input type="radio" name="price">&nbsp;&nbsp;Mặc định
+									<br>
+									<input type="radio" name="price">&nbsp;&nbsp;Giá từ thấp đến cao
+									<br>
+									<input type="radio" name="price">&nbsp;&nbsp;Giá từ cao xuống thấp
+									<br>
+								</p>	
+						</div>
+
+				</div>
+				<div class="text-right">
+					<p>
+						<button class="close_filter">Tìm sản phẩm</button>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>			
+
+	<!--Modal-->
+	<div class="modal fade" id="search_modal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+
+				<div class="modal-body">
+					
+					<form class="d-flex">
+						<input type="text" name="" class="form-control" placeholder="Bạn đang tìm gì">&nbsp;&nbsp;
+						<i class="far fa-search s_icon"></i>
+					</form>				
+					<h6>Từ khóa phổ biến</h6>
+					<div class="d-flex">
+						<p class="mr-auto">khuyên tai tròn</p>
+						<p class="mx-auto">nhẫn midi</p>
+						<p class="ml-auto">lắc tay hoa lá</p>
+					</div>
+					<div class="d-flex">
+						<p class="mr-auto">bông tai ngọc trai</p>
+						<p class="mx-auto">khuyên mũi</p>
+						<p class="ml-auto">lắc tay charm</p>		
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="bag_modal">
+		<div class="modal-dialog modal-lg d-none d-lg-block">
+			<div class="modal-content">
+				
+				<div class="modal-header">
+					<h5>Giỏ hàng của bạn</h5>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+
+				<div class="modal-body">
+					<table class="table">
+						<thead>
+							<tr>
+								<th>Hình sản phẩm</th>
+								<th>Tên sản phẩm</th>
+								<th>Số lượng</th>
+								<th>Thành tiền</th>
+								<th>---</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<img src="hinh/ring7.jpg">
+								</td>
+								<td>
+									Constellation
+								</td>
+								<td>
+									<input type="number" name="" placeholder="1" class="form-control w-50">
+								</td>
+								<td>
+									1.320.000 đ
+								</td>
+								<td>
+									<a href="#" class="btn btn-light"><i class="far fa-times icon1"></i></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="hinh/ear10.png">
+								</td>
+								<td>
+									Butterfly Blossom
+								</td>
+								<td>
+									<input type="number" name="" placeholder="1"  class="form-control w-50">
+								</td>
+								<td>
+									1.150.000 đ
+								</td>
+								<td>
+									<a href="#" class="btn btn-light"><i class="far fa-times icon1"></i></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="hinh/brace12.jpg">
+								</td>
+								<td>
+									Sterling Silver Link
+								</td>
+								<td>
+									<input type="number" name="" placeholder="1" class="form-control w-50">
+								</td>
+								<td>
+									2.000.000 đ
+								</td>
+								<td>
+									<a href="#" class="btn btn-light"><i class="far fa-times icon1"></i></a>
+								</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td class="bold_text">Tổng tiền</td>
+								<td></td>
+								<td  class="bold_text">4.470.000 đ</td>
+								<td></td>
+							</tr>
+						</tbody>
+
+					</table>
+				</div>
+
+				<div class="modal-footer">
+					<button type="button" class="btn btn-outline-secondary">Quay lại</button>
+					<a href="payment.html"><button type="button" class="btn btn-secondary">Tiến hành thanh toán</button></a>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="modal-dialog d-block d-lg-none">
+			<div class="modal-content">
+				
+				<div class="modal-header">
+					<h5>Giỏ hàng của bạn</h5>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+
+				<div class="modal-body table-responsive">
+					<table class="table">
+						<thead>
+							<tr>
+								<th>Sản phẩm</th>
+								<th>Số lượng</th>
+								<th style="width: 27%;">Thành tiền</th>
+								<th>--</th>
+								
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<img src="hinh/ring7.jpg">
+								</td>
+								<td>
+									<input type="number" name="" placeholder="1" class="form-control w-50">
+								</td>
+								<td >
+									1.320.000 đ
+								</td>
+								<td><a href="#" class="btn btn-light"><i class="far fa-times icon1"></i></a></td>
+								
+							</tr>
+							<tr>
+								<td>
+									<img src="hinh/ear10.png">
+								</td>
+								<td>
+									<input type="number" name="" placeholder="1" class="form-control w-50">
+								</td>
+								<td>
+									1.150.000 đ
+								</td>
+								<td><a href="#" class="btn btn-light"><i class="far fa-times icon1"></i></a></td>
+							</tr>
+							<tr>
+								<td>
+									<img src="hinh/brace12.jpg">
+								</td>
+								<td>
+									<input type="number" name="" placeholder="1" class="form-control w-50">
+								</td>
+								<td>
+									1.000.000 đ
+								</td>
+								<td><a href="#" class="btn btn-light"><i class="far fa-times icon1"></i></a></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td class="bold_text">Tổng tiền</td>
+								<td  class="bold_text">4.470.000 đ</td>
+								
+							</tr>
+						</tbody>
+
+					</table>
+				</div>
+
+				<div class="modal-footer">
+					<button type="button" class="btn btn-outline-secondary">Quay lại</button>
+					<a href="payment.html"><button type="button" class="btn btn-secondary">Tiến hành thanh toán</button></a>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+	<!--footer-->
+	<div class="container-fluid grey_bg myfooter">
+		<div class="container">
+			
+			<div class="logofooter">
+				<img src="hinh/Logo1.JW.png">
+				<p class="logotext">Since 2014</p>
+			</div>
+			<hr width="50%" color="#fff" align="center">
+			<div class="row">
+
+				<div class="col-xl-3 col-lg-3 col-sm-12 col-12 footer_col">
+					<h5>LIÊN HỆ</h5>
+					<ul class="nav flex-column">
+						<li class="nav-item">
+							<a href="#" class="nav-link"><i class="fas fa-phone"></i>&nbsp;&nbsp;&nbsp;0588.510.0407</a>
+						</li>
+						<li class="nav-item">
+							 <a href="https://goo.gl/maps/7BFsbyYEiqw1DjQ56" class="nav-link"><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;&nbsp;&nbsp;270 Phan Văn Trị,  phường 7, quận 5, TP Hồ Chí Minh</a>
+						</li>
+					</ul>
+
+				</div>
+
+				<div class="col-xl-3 col-lg-3 col-sm-12 col-12 footer_col">
+					<h5>THÔNG TIN</h5>
+					<ul class="nav flex-column">
+						<li class="nav-item">
+							<a href="#" class="nav-link">Hướng dẫn đo size</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Bảo hành & bảo quản</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Ưu đãi khách hàng</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-xl-3 col-lg-3 col-sm-12 col-12 footer_col">
+					<h5>HỖ TRỢ</h5>
+					<ul class="nav flex-column">
+						<li class="nav-item">
+							<a href="#" class="nav-link">Chăm sóc khách hàng</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Các dịch vụ khác</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-xl-3 col-lg-3 col-sm-12 col-12 footer_col">
+					<h5>CHÍNH SÁCH</h5>
+					<ul class="nav flex-column">
+						<li class="nav-item">
+							<a href="#" class="nav-link">Chính sách thanh toán </a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Chính sách giao hàng</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Chính sách đổi trả</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Chính sách bảo mật thông tin</a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+
+			<hr width="90%" color="#fff" align="center">
+
+			<div class="row botfooter">
+				<div class="mr-auto">
+					<p>© 2014 - 2021 Mọi bản quyền thuộc về Bling Jewelry</p>
+				</div>
+				<div class="mx-auto">
+							<a href="#" class="icon_footer_link"><i class="fab fa-cc-visa"></i></a>
+			
+							<a href="#" class="icon_footer_link"><i class="fab fa-cc-jcb"></i></a>
+						
+							<a href="#" class="icon_footer_link"><i class="fab fa-cc-paypal"></i></a>
+						
+							<a href="#" class="icon_footer_link"><i class="fab fa-cc-mastercard"></i></a>		
+				</div>
+				<div class="ml-auto">
+					<p>www.blingjewelry.com</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#filter_btn').click(function(){
+				var a = $(this).offset();
+				var b = a.top + 70;
+				$('#filter_box').css('left',"0");
+				$('#filter_box').css('top',b);
+				$('#filter_box').toggle(200);
+
+			})
+
+			$('.close_filter').click(function(){
+				$('#filter_box').hide(100)
+			})
+		})
+	</script>
+
+</body>
+</html>
